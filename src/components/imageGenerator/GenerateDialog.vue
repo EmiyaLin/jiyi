@@ -1,6 +1,6 @@
 <template>
   <el-dialog :visible.sync="createImageDialog" title="正在生成中..." :modal-append-to-body='false' :before-close="closeDialog">
-    <div>
+    <div :style="{backgroundColor: skyblue}">
       <el-container>
         <el-main class="imgageShowDialogBox">
           <el-image  :src="generateImageSrc" :preview-src-list="generateImageSrcList" style="box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);border-radius: 2%;" >

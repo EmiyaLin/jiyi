@@ -83,6 +83,7 @@
         <div class="swiper-button-next" @click="nextSlide"></div>
       </div>
     </div>
+    <br><br><br><br><br><br><br><br><br><br>
   </div>
 </template>
 
@@ -179,8 +180,15 @@ export default {
   },
 };
 </script>
+body {
+  background-color: blue;
+}
 
 <style scoped>
+body {
+  background-color: black;
+}
+
 .banner {
   padding-top: 80px;
 }

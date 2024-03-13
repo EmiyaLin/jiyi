@@ -1,5 +1,5 @@
 <template>
-    <span class="demonstration" style="line-height: 30pt;">
+    <span class="demonstration" style="line-height: 30pt; background-color: skyblue">
         <el-button :type="createImagesBtnType" size="large" :disabled="createImagesBtnDisabled" @click.native="createSubmit"
                    style="height: 50px;width: 150px;">{{
             createImagesBtnTxt }}</el-button>

@@ -1,6 +1,6 @@
 <template>
   <el-dialog :visible.sync="imgageShowDialogVisible" :append-to-body="true" title="图片预览" center>
-    <div>
+    <div :style="{backgroundColor: skyblue}">
       <el-container>
         <el-main class="imgageShowDialogBox">
           <el-image name="test" lazy class="album-image shadow"
