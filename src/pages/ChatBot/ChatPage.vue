@@ -116,7 +116,7 @@ export default {
             question: this.newMessage,
           })
           .then((response) => {
-            const botReply = response.data; // 假设机器人回复存储在response.data中，需要根据实际情况调整
+            const botReply = response.data;
             this.messages.push({
               type: "bot",
               text: botReply,
