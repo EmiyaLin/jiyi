@@ -32,6 +32,7 @@
     "dotenv": "^16.0.1",
     "less-loader": "^11.0.0",
     "tencentcloud-sdk-nodejs": "^4.0.413",
+    "vue-carousel": "^0.18.0",
     "vue-template-compiler": "^2.6.14"
   }
 }

@@ -4,13 +4,13 @@
       <div class="logo-container">
         <router-link :to="{ path: '/home' }">
           <img
-            src="../../assets/img/logo_transparent.png"
+            src="https://s21.ax1x.com/2024/03/13/pFccq56.png"
             alt="Logo"
             class="logo"
           />
         </router-link>
 
-        <span class="logo-text">云织非遗</span>
+        <span class="logo-text">纪艺</span>
       </div>
       <router-link :to="{ path: '/userProfile/login' }">
         <button class="login-button">立即登录</button>

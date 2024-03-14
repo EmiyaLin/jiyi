@@ -10,6 +10,7 @@
           id="title1"
           class="normal"
           @click="page(item)"
+          :key="index"
         >
           <p>{{ item.title }}</p>
           <div

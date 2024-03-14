@@ -1,5 +1,5 @@
 <template>
-  <div :style="{backgroundColor: skyblue}">
+  <div>
   <el-row :gutter="16">
     <el-col :span="25" v-for="(image, index) in images" :key="index" style="padding-left: 2vw;">
         <el-card :body-style="{ padding: '20px', width: '240px', height: '340px'}">

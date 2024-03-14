@@ -54,6 +54,7 @@ const nonHeritagePlanet = () => import("../pages/nonHeritagePlanet/nonHeritagePl
 const GptPage = () => import("../pages/ChatBot/ChatPage") // 对话问答界面
 
 const imageCreation = () => import("../pages/nonHeritagePlanet/imageCreation") //图片创作
+
 const routes = [
   {
     path: '',
