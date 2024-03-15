@@ -147,11 +147,11 @@ export default {
     };
   },
   mounted: function () {
-    this.initAllModel();
-    document.addEventListener("keydown", (event) => {
-      if (event.altKey && event.code === "KeyP") {
-        this.selectCardAdvance();
-        console.log("hello");
+    this.initAllModel()
+    document.addEventListener('keydown', (event) => {
+      if (event.altKey && event.code === 'KeyP') {
+        //this.selectCardAdvance()
+        console.log('hello');
       }
     });
   },
