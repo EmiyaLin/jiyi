@@ -10,7 +10,7 @@
           />
         </router-link>
 
-        <span class="logo-text">纪艺</span>
+        <!-- <span class="logo-text">纪艺</span> -->
       </div>
     </header>
     <div class="chat-container">
