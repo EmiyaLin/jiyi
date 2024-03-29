@@ -8,7 +8,7 @@ import Go from './go.vue'
 </script>
 
 <template>
-  <div :style="{backgroundColor: skyblue}">
+  <div>
     <el-header class="header">
     <div style="position: absolute; z-index: 2; top: 0; left: 0; right: 0;">
         <!-- 导航栏 -->
@@ -276,7 +276,6 @@ a:hover {
   margin-top: 50px;
   /* 头部高度 */
   margin-bottom: 50px;
-  background-color: skyblue;
 }
 
 .footer {
