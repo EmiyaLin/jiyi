@@ -11,7 +11,7 @@
       </div>
       <div style="display: flex;top: 0;width: 100%;justify-content: space-between">
         <div style="background-color: #000;display: flex;align-items: center;justify-content: center;width: 40%;cursor: pointer" class="pageTitle" @click="changePage(path2[1])">
-          走 进 纪 艺
+          走 进 珍 珠 谷
         </div>
         <img :src="path2[1].imgUrl" alt="走进纪艺" class="image">
       </div>

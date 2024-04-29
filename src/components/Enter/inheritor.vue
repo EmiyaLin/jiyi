@@ -51,7 +51,7 @@ export default {
     return {
       pathTitle: [
         {name: "数字展馆", url: "/exhibition/exhibitionHome"},
-        {name: "走进纪艺", url: "/exhibition/enter/menu"},
+        {name: "走进珍珠谷", url: "/exhibition/enter/menu"},
         {name: "传承人", url: ""}
       ],
       // searchResult: [
