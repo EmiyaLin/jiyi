@@ -50,7 +50,7 @@
       </div>
       <div class="bottom">
         <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;width: 50%">
-          <img src="@/assets/home/logo2.png" style="width: 220px;object-fit: cover" alt="珍珠谷">
+          <img src="@/assets/home/zzg.png" style="width: 220px;object-fit: cover" alt="珍珠谷">
           <div class="bottomText" style="margin-top: 15px">欢迎所有非遗爱好者与我们一同见证</div>
           <div class="bottomText">“非遗文化数字化的新纪元”</div>
         </div>
