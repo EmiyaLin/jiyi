@@ -20,7 +20,13 @@
     </div>
   </div>
   <p class="center">
-    珍 珠 谷
+    <!-- <a href="/home">
+      <img
+          src="../../../assets/home/logo2.png"
+          alt="珍珠谷"
+          style="width: 220px; object-fit: cover"
+      /></a> -->
+      珍 珠 谷
   </p>
   <div class="right" id="font">
     <p>联系我们</p>
