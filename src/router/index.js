@@ -33,8 +33,8 @@ const Welfare = () => import("../pages/exhibition/welfare/welfare")   //公益�
 const WelfareInfo = () => import("../components/Exhibition/welfare/welfareInfo")  //公益追溯详情界面
 const DigitalMall = () => import("../pages/exhibition/digitalMall/digitalMall")   //数字商城
 
-const Enter = () => import("../pages/exhibition/enter/enter")   //走进纪艺
-const EnterMenu = () => import("../components/Enter/enterMenu")    //走进纪艺  传承人/创作者
+const Enter = () => import("../pages/exhibition/enter/enter")   //走进珍珠谷
+const EnterMenu = () => import("../components/Enter/enterMenu")    //走进珍珠谷  传承人/创作者
 const Inheritor = () => import("../components/Enter/inheritor")   //我是传承人
 const Campus = () => import("../components/Enter/Campus")         //我是高校
 const Program = () => import("../components/Enter/knowProgram")   //了解程序
@@ -139,7 +139,7 @@ const routes = [
       },
       {
         path: 'enter',
-        component: Enter,           //走进纪艺
+        component: Enter,           //走进珍珠谷
         children: [
           {
             path: "",
@@ -148,27 +148,27 @@ const routes = [
           {
             path: "menu",
             component: EnterMenu,
-            name: "走进纪艺",
+            name: "走进珍珠谷",
           },
           {
             path: 'inheritor',      //传承人
             component: Inheritor,
-            name: "走进纪艺-我是传承人"
+            name: "走进珍珠谷-我是传承人"
           },
           {
             path: 'campus',    //我是高校
             component: Campus,
-            name: "走进纪艺-我是高校"
+            name: "走进珍珠谷-我是高校"
           },
           {
             path: 'program',   //了解程序
             component: Program,
-            name: "走进纪艺-了解程序"
+            name: "走进珍珠谷-了解程序"
           },
           {
             path: 'weChat',          //添加微信
             component: AddWeChat,
-            name: "走进纪艺-添加微信"
+            name: "走进珍珠谷-添加微信"
           },
           {
             path: 'creator',
