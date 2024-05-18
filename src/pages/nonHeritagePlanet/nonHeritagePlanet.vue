@@ -68,7 +68,7 @@
               >
                 <!-- 第一个路由链接 -->
                 <router-link
-                  :to="{ path: '/nonHeritagePlanet/QuestionAndAnswer' }"
+                  :to="{ path: '/nonHeritagePlanet/ImageCreation' }"
                   style="
                     text-decoration: none;
                     color: inherit;
@@ -93,7 +93,7 @@
 
                 <!-- 第二个路由链接 -->
                 <router-link
-                  :to="{ path: '/nonHeritagePlanet/ImageCreation' }"
+                  :to="{ path: '/nonHeritagePlanet/QuestionAndAnswer' }"
                   style="text-decoration: none; color: inherit"
                   class="custom-link"
                 >
